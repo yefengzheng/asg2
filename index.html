@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>asg2</title>
+  </head>
+  <body onload="main()">
+  <!-- Assignment Information -->
+  <div>
+    <h2>Assignment Information</h2>
+    <p><strong>Student's Name:</strong> [yefeng zheng]</p>
+    <p><strong>Student's UCSC Email:</strong> [yzhen140@ucsc.edu]</p>
+    <p><strong>Notes to Grader:</strong>[chat help me for time loop] </p>
+  </div>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>
+    <p id = "numdot"> XXX </p>    <p>
+        LegMove Animation:
+        <button type = "button" id = "AnimationOnButton">ON</button>
+        <button type = "button" id = "AnimationOffButton">OFF</button>
+        <p>
+    <p>
+    LegMove13 <input type="range" min = "-10" max = "10" valuse = "0" class = "slider" id = "YellowSlide">
+      Animation:
+    <button type = "button" id = "AnimationYellowOnButton">ON</button>
+    <button type = "button" id = "AnimationYellowOffButton">OFF</button>
+    <p>
+    LegMove24 <input type="range" min = "-10" max = "10" valuse = "0" class = "slider" id = "MagentaAngle">
+      Animation:
+    <button type = "button" id = "AnimationMagentaOnButton">ON</button>
+    <button type = "button" id = "AnimationMagentaOffButton">OFF</button>
+
+    <p>
+    Camera Angle <input type="range" id="angleSlide" min="180" max="220" value="10" class="slider">
+
+
+    <p>
+
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Cube.js"></script>
+
+    <script src="BlockyAnimal.js"></script>
+  </body>
+</html>
